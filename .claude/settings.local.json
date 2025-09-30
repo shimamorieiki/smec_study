@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.chusho.meti.go.jp)",
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(cat:*)",
+      "Bash(for file in analysis.md */analysis.md)",
+      "Bash(do echo \"Processing: $file\")",
+      "Bash(done)",
+      "Bash(git checkout:*)",
+      "Bash(find:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(wc:*)",
+      "Bash(timeout:*)"
+    ],
+    "deny": []
+  }
+}
