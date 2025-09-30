@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.chusho.meti.go.jp)"
+      "WebFetch(domain:www.chusho.meti.go.jp)",
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)"
     ],
     "deny": []
   }
