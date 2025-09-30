@@ -14,7 +14,8 @@
       "Bash(find:*)",
       "Bash(for:*)",
       "Bash(do echo \"=== $file ===\")",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(timeout:*)"
     ],
     "deny": []
   }
