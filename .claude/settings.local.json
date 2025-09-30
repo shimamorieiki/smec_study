@@ -5,7 +5,16 @@
       "Bash(mkdir:*)",
       "Bash(python:*)",
       "Bash(dir:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(cat:*)",
+      "Bash(for file in analysis.md */analysis.md)",
+      "Bash(do echo \"Processing: $file\")",
+      "Bash(done)",
+      "Bash(git checkout:*)",
+      "Bash(find:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(wc:*)"
     ],
     "deny": []
   }
